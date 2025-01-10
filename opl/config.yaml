@@ -1,0 +1,19 @@
+# LLM
+llm_platform: "ollama" # exo or ollama
+llm_url: "http://127.0.0.1:11434" # Ollama
+# llm_url: "http://127.0.0.1:8000" # exo
+default_model: "llama3.2:1b"
+
+# DB Internal
+job_db: ".db/jobs.db"
+result_db: ".db/results.db"
+
+# Worker
+worker_identity: ""
+# worker_host: "tcp://0.0.0.0:5555"
+orchestrator_address: "tcp://msgtn.openledger.xyz:9999"
+
+# Blockchain
+keystore_file: "keystore.json"
+
+scrape_url: http://opl_scraper:8000
